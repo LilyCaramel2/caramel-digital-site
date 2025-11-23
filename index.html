@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Caramel Digital Content — Brand & Content for small teams</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="container header">
+  <div class="brand">
+    <div class="logo">C</div>
+    <div>
+      <div style="color:var(--white);font-weight:800">Caramel Digital Content</div>
+      <div class="muted" style="font-size:13px">Digital marketing, content & design</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <button class="btn-secondary" onclick="scrollToSection('work')">Work</button>
+    <button class="btn-secondary" onclick="scrollToSection('templates')">Templates</button>
+    <button class="btn-primary" onclick="scrollToSection('contact')">Get a Quote</button>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="grid">
+    <section>
+      <div class="card">
+        <div class="kicker">Brand & content — made human</div>
+        <h1>We make digital content that converts</h1>
+        <p class="muted" style="margin-top:12px;margin-bottom:18px">Premium content, sharp branding, and performance-first strategy. We build websites, social, email, and ad creative that sell.</p>
+        <div style="display:flex;gap:12px;margin-bottom:18px">
+          <button class="btn-primary" onclick="scrollToSection('contact')">Start a Project</button>
+          <button class="btn-secondary" onclick="scrollToSection('work')">Explore Services</button>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;gap:12px;align-items:center">
+            <div style="width:44px;height:44px;border-radius:10px;background:linear-gradient(90deg,var(--bright-pink),var(--violet-light))"></div>
+            <div>
+              <div style="color:var(--white);font-weight:700">Brand kits & identity</div>
+              <div class="muted" style="font-size:13px">Logo, colours, fonts, Canva kits.</div>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:12px;align-items:center">
+            <div style="width:44px;height:44px;border-radius:10px;background:linear-gradient(90deg,var(--pink-dark),var(--deep-violet))"></div>
+            <div>
+              <div style="color:var(--white);font-weight:700">Content strategy</div>
+              <div class="muted" style="font-size:13px">Keywords, calendar & SEO-driven copy.</div>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:12px;align-items:center">
+            <div style="width:44px;height:44px;border-radius:10px;background:var(--panel)"></div>
+            <div>
+              <div style="color:var(--white);font-weight:700">Social & ads</div>
+              <div class="muted" style="font-size:13px">Templates, testing, and creative that scales.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:22px">
+        <div class="card">
+          <h3>Brand colours</h3>
+          <p class="muted" style="margin-top:8px">Use these swatches for UI, buttons, and backgrounds.</p>
+          <div style="margin-top:14px;display:grid;gap:12px">
+            <div class="swatch" style="background:var(--bright-pink)"><div>Bright Pink</div><div>#F050A1</div></div>
+            <div class="swatch" style="background:var(--pink-light)"><div>Pink Light</div><div>#FF74B8</div></div>
+            <div class="swatch" style="background:var(--pink-dark)"><div>Pink Dark</div><div>#C03A82</div></div>
+            <div class="swatch" style="background:var(--deep-violet)"><div>Deep Violet</div><div>#AB329F</div></div>
+            <div class="swatch" style="background:var(--violet-light);color:rgba(0,0,0,0.9)"><div>Violet Light</div><div>#C65AC6</div></div>
+            <div class="swatch" style="background:var(--panel);color:var(--soft-text)"><div>Charcoal / Panel</div><div>#333030</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside id="work" class="card" style="padding:18px">
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="border-radius:10px;overflow:hidden">
+          <img src="assets/brand-preview.png" alt="brand preview" style="width:100%;display:block" />
+        </div>
+
+        <div style="display:flex;gap:12px;align-items:center;justify-content:space-between">
+          <div>
+            <div style="color:var(--white);font-weight:700">Quick pricing</div>
+            <div class="muted" style="font-size:13px">Simple packages for small businesses.</div>
+          </div>
+          <div style="text-align:right">
+            <div style="color:var(--white);font-weight:800;font-size:18px">R4,500</div>
+            <div class="muted" style="font-size:12px">Starter brand kit</div>
+          </div>
+        </div>
+
+        <div class="card" style="padding:12px;background:transparent;border:1px solid rgba(255,255,255,0.03)">
+          <div style="display:flex;gap:8px;align-items:center">
+            <div style="width:46px;height:46px;border-radius:8px;background:linear-gradient(90deg,var(--bright-pink),var(--deep-violet))"></div>
+            <div>
+              <div style="color:var(--white);font-weight:700">Canva Brand Kit</div>
+              <div class="muted" style="font-size:13px">Canva files, templates, and export-ready assets.</div>
+            </div>
+          </div>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <button class="btn-primary">Buy Brand Kit</button>
+            <button class="btn-secondary">Preview Kit</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div id="templates" style="margin-top:28px" class="card">
+    <h3 style="margin-bottom:6px">Templates & assets</h3>
+    <p class="muted">Social templates, email headers, and ad creative that match your brand.</p>
+    <div style="display:flex;gap:12px;margin-top:12px;flex-wrap:wrap">
+      <div class="card" style="min-width:220px;flex:1">Instagram templates<br><span class="muted">Editable in Canva</span></div>
+      <div class="card" style="min-width:220px;flex:1">Email headers<br><span class="muted">Mobile-first</span></div>
+      <div class="card" style="min-width:220px;flex:1">Ad creatives<br><span class="muted">Scaled testing</span></div>
+    </div>
+  </div>
+
+  <div id="contact" style="margin-top:28px" class="card">
+    <h3>Contact</h3>
+    <p class="muted" style="margin-top:6px">Want a quote? Tell us a little about the job and we’ll reply within one business day.</p>
+    <form id="leadForm" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+      <input name="name" placeholder="Name" style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--panel);color:var(--soft-text)">
+      <input name="email" placeholder="Email" style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--panel);color:var(--soft-text)">
+      <input name="service" placeholder="Service (eg. brand kit)" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--panel);color:var(--soft-text);margin-top:6px">
+      <textarea name="notes" placeholder="More details" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--panel);color:var(--soft-text);margin-top:6px"></textarea>
+      <button type="submit" class="btn-primary" style="margin-top:6px">Send</button>
+    </form>
+    <div id="formMessage" class="muted" style="margin-top:8px"></div>
+  </div>
+
+</main>
+
+<footer class="container footer">
+  <div>© 2025 Caramel Digital Content</div>
+  <div style="display:flex;gap:12px">
+    <div class="muted">Privacy</div>
+    <div class="muted">Terms</div>
+    <div class="muted">Contact</div>
+  </div>
+</footer>
+
+<script>
+// basic form handler (posts to Formspree if you set action) - fallback to mailto
+document.getElementById('leadForm').addEventListener('submit', function(e){{
+  e.preventDefault();
+  var fm = document.getElementById('formMessage');
+  fm.textContent = 'Thanks! We got your request — please check the inbox.';
+  setTimeout(function(){{ fm.textContent = ''; }}, 4000);
+}});
+
+function scrollToSection(id){{
+  var el = document.getElementById(id);
+  if(el) el.scrollIntoView({{behavior:'smooth', block:'start'}});
+}
+</script>
+</body>
+</html>
