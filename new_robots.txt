@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://carameldigitalcontent.com/sitemap.xml
