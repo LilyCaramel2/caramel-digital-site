@@ -7,14 +7,5 @@ document.addEventListener('DOMContentLoaded', function(){
       bloom.style.opacity = 0.08 + t*0.1;
     },90);
   }
-
-  const form = document.getElementById('hubspot-form');
-  if(form){
-    form.addEventListener('submit', (e)=>{
-      e.preventDefault();
-      const btn = form.querySelector('button');
-      btn.textContent = 'Sending...';
-      setTimeout(()=>{ btn.textContent = 'Check your inbox'; btn.disabled = true; },800);
-    });
-  }
+  console.log('Caramel full site loaded');
 });
